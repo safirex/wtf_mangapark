@@ -9,10 +9,26 @@
         "persistent": false,
         "type": "module"
     },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "@wtf-mangapark.safirex",
+            "data_collection_permissions": {
+                "required":["none"]
+            }
+
+        }
+    },
+    "data_collection_permissions": {},
+    
     "permissions": [
         "webRequest",
         "webRequestBlocking",
         "webNavigation",
+        "https://s02.mpvim.org/*",
+        "https://mangapark.net/*"
+    ],
+    
+    "host_permissions": [
         "https://s02.mpvim.org/*",
         "https://mangapark.net/*"
     ]
